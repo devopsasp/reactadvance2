@@ -1,38 +1,65 @@
-.App {
-  text-align: center;
+.navbar{
+  width:200px;
+  height:900px;
+  background-color:bisque;
+  font-size: 20px;
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+  color:black;
+}
+.layout{
+  width:100vw;
+  height:100vh;
+  display:grid;
+  grid-template-columns: 15% 85%;
+  margin:0px;
+  padding:0px;
+  background-color: darkgray;
+}
+.Sidebar
+{ 
+  height:100%;
+  width:13rem;
+  background-color: #2f4050;
+
+}
+.SidebarList
+{
+  height:auto;
+  padding:0;
+  width:100%;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
-}
-
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
-}
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
+.row
+{
+  width:100%;
+  height:60px;
+  list-style-type:none;
+  margin:0%;
+  display:flex;
+  flex-direction:row;
+  color:white;
   justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+  align-items: center;
+  font-family: 'Trebuchet MS','Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
 }
-
-.App-link {
-  color: #61dafb;
+.tasklist
+{
+   width:100%;
+   color:black;
+   font-size: 20px;
 }
+input
+{
+  font-size:30px;
+  border-radius: 5px;
+}
+.text{
+  font-size:30px;
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+}
+button{
+  font-size: 25px;
+  background-color:burlywood;
+  color:black;
+  border-radius: 10px;
 }
